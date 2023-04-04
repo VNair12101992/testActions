@@ -9,4 +9,19 @@ public class TestActions {
         String b="a";
         Assert.assertEquals(a,b);
     }
+
+
+    @Test
+    public void checkTest1(){
+        String a="a";
+        String b="a";
+        Assert.assertEquals(a,b);
+    }
+
+    @Test
+    public void checkTest2(){
+        String a="a";
+        String b="a";
+        Assert.assertEquals(a,b);
+    }
 }
