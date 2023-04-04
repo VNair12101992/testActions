@@ -10,7 +10,6 @@ public class TestActions {
         Assert.assertEquals(a,b);
     }
 
-
     @Test
     public void checkTest1(){
         String a="a";
