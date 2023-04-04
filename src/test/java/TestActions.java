@@ -23,6 +23,8 @@ public class TestActions {
         driver.get("https://www.google.com/");
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("//input[@value='Google Search']")));
         System.out.println(driver.getTitle());
+        if (driver!=null)
+            driver.quit();
 
     }
 
