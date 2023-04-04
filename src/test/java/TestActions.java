@@ -14,6 +14,7 @@ public class TestActions {
 
     @Test
     public void checkTest(){
+
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
