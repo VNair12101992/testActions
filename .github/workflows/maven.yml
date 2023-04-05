@@ -32,6 +32,7 @@ jobs:
       run: |
         chmod +x ./scripts/InstallChrome.sh
                   ./scripts/InstallChrome.sh
+        /usr/bin/google-chrome --version
     - name: Build with Maven
       run: mvn -B test --file pom.xml
     - name: Report
